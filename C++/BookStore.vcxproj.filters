@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="database-main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="database.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="database-detail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="database.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="documentation\html\annotated.html" />
+    <None Include="documentation\html\classes.html" />
+    <None Include="documentation\html\classMySQL-members.html" />
+    <None Include="documentation\html\classMySQL.html" />
+    <None Include="documentation\html\database-detail_8h.html" />
+    <None Include="documentation\html\database-detail_8h_source.html" />
+    <None Include="documentation\html\database-main_8cpp.html" />
+    <None Include="documentation\html\database-main_8cpp_source.html" />
+    <None Include="documentation\html\database_8cc.html" />
+    <None Include="documentation\html\database_8cc_source.html" />
+    <None Include="documentation\html\database_8h.html" />
+    <None Include="documentation\html\database_8h_source.html" />
+    <None Include="documentation\html\files.html" />
+    <None Include="documentation\html\functions.html" />
+    <None Include="documentation\html\functions_func.html" />
+    <None Include="documentation\html\functions_vars.html" />
+    <None Include="documentation\html\globals.html" />
+    <None Include="documentation\html\globals_defs.html" />
+    <None Include="documentation\html\globals_func.html" />
+    <None Include="documentation\html\header_8h.html" />
+    <None Include="documentation\html\header_8h_source.html" />
+    <None Include="documentation\html\index.html" />
+    <None Include="documentation\html\md_README.html" />
+    <None Include="documentation\html\pages.html" />
+    <None Include="documentation\html\README_8md.html" />
+    <None Include="documentation\html\README_8md_source.html" />
+    <None Include="documentation\html\search\all_63.html" />
+    <None Include="documentation\html\search\all_64.html" />
+    <None Include="documentation\html\search\all_68.html" />
+    <None Include="documentation\html\search\all_69.html" />
+    <None Include="documentation\html\search\all_6d.html" />
+    <None Include="documentation\html\search\all_70.html" />
+    <None Include="documentation\html\search\all_72.html" />
+    <None Include="documentation\html\search\all_73.html" />
+    <None Include="documentation\html\search\all_75.html" />
+    <None Include="documentation\html\search\all_7e.html" />
+    <None Include="documentation\html\search\classes_6d.html" />
+    <None Include="documentation\html\search\defines_64.html" />
+    <None Include="documentation\html\search\defines_70.html" />
+    <None Include="documentation\html\search\defines_73.html" />
+    <None Include="documentation\html\search\defines_75.html" />
+    <None Include="documentation\html\search\files_64.html" />
+    <None Include="documentation\html\search\files_68.html" />
+    <None Include="documentation\html\search\files_72.html" />
+    <None Include="documentation\html\search\functions_6d.html" />
+    <None Include="documentation\html\search\functions_73.html" />
+    <None Include="documentation\html\search\functions_7e.html" />
+    <None Include="documentation\html\search\nomatches.html" />
+    <None Include="documentation\html\search\pages_6d.html" />
+    <None Include="documentation\html\search\variables_63.html" />
+    <None Include="documentation\html\search\variables_69.html" />
+    <None Include="documentation\html\search\variables_72.html" />
+  </ItemGroup>
+</Project>

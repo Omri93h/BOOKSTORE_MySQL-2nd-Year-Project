@@ -1,7 +1,9 @@
 # BookStore
 
 MySQL project with a Console C++ Program
+
 ![BookStore](Documents/screenshot.JPG?raw=true "BookStore")
+
 ## Installation
 
 1. Change USER & PASSWORD of "database-detail.h".

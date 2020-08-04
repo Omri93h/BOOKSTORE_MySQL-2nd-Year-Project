@@ -345,7 +345,7 @@ CREATE TABLE `shipping_method` (
 
 LOCK TABLES `shipping_method` WRITE;
 /*!40000 ALTER TABLE `shipping_method` DISABLE KEYS */;
-INSERT INTO `shipping_method` VALUES (1,'Courier Service','Israel Post',13.9),(2,'EMS Service','Israel Post',25.9),(3,'Registered','Israel Post',19.9),(4,'Collect Point','Xpress',29.5),(5,'Courier to Home','Xpress',35.9);
+INSERT INTO `shipping_method` VALUES (1,'Courier Service','Israel Post',13.9),(2,'EMS Service','Israel Post',25.9),(3,'Registered','Israel Post',19.9),(4,'Collect Point','-Xpress-',29.5),(5,'Courier to Home','-Xpress-',35.9);
 /*!40000 ALTER TABLE `shipping_method` ENABLE KEYS */;
 UNLOCK TABLES;
 

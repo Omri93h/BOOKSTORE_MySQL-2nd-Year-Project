@@ -264,7 +264,7 @@ void MySQL::customerOrderHistory()		// 10
 void MySQL::calculateShipping()			// 11
 {
 	int total, book_id;
-	std::string	query = "SELECT method_name, kg_price* (SELECT SUM(weight) "
+	std::string	query = "SELECT method_name, company, kg_price* (SELECT SUM(weight) "
 		"FROM book b WHERE b.book_id IN(";		
 	std::string books = "";
 	std::cout << RESET << "Amount of books to calculate(example -> 3)" << CYAN << endl;
@@ -562,7 +562,7 @@ void MySQL::empSalaryByMonth()			// 25
 }
 
 
-void MySQL::topSellingEmpByMonth()
+void MySQL::topSellingEmpByMonth()		//26
 {
 	int month, year;
 

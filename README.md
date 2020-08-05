@@ -4,6 +4,10 @@ MySQL project with a Console C++ Program
 
 ![BookStore](Documents/screenshot.JPG?raw=true "BookStore")
 
+## Requirments
+
+Visual Studio 2019 with your local SQL configuration.
+
 ## Installation
 
 1. Change USER & PASSWORD of "database-detail.h".
@@ -15,7 +19,12 @@ MySQL project with a Console C++ Program
 #define DATABASE "book_store"
 ```
 
-2. Run "BookStore_SETUP.sql" at your SQL query.
+2. Rebuild Solution with Visual Studio 2019.
+
+3. Import "BookStore_SETUP.sql" OR run it as query in your MySQL query
+
+4. Run BookStore
+
 
 ## Created By
 David Tsibulsky & Omri Haham,
